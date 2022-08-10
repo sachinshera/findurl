@@ -1,0 +1,34 @@
+{
+  "name": "findurl",
+  "version": "1.0.0",
+  "description": "An open source project to find exact URL of hidden or shorted  URL\r <h2> Supported Domain  </h2>\r     <ul>\r         <li>\r         Mdisk.me\r         </ii>\r          <li>\r         tinyurl.com\r         </ii>\r     </ul>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skshera/findurl.git"
+  },
+  "keywords": [
+    "tinyurl",
+    "mdisk",
+    "findurl",
+    "url",
+    "shorturl",
+    "bitly",
+    "pdisk"
+  ],
+  "author": "sachinkumarshera@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skshera/findurl/issues"
+  },
+  "homepage": "https://github.com/skshera/findurl#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "supertest": "^6.2.4"
+  }
+}
