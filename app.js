@@ -22,7 +22,11 @@ app.use(function (req, res, next) {
     })
 });
 
+app.use(function (err, req, res, next) {
+    console.log(err);
+});
 
-app.listen(port, () => {
+
+app.listen(3000, () => {
     console.log('app is started at 3000');
 });
