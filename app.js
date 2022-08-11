@@ -1,6 +1,7 @@
 const http = require('http');
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 3000;
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 app.use(bodyParser.json());
@@ -22,6 +23,6 @@ app.use(function (req, res, next) {
 });
 
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('app is started at 3000');
 });
